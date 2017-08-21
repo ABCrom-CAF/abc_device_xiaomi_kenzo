@@ -316,6 +316,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libprotobuf-cpp-full
 
+# QPerformance
+PRODUCT_BOOT_JARS += QPerformance
+
 # Qualcomm dependencies
 PRODUCT_PACKAGES += \
     libtinyxml \
