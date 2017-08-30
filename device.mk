@@ -396,3 +396,7 @@ PRODUCT_PROPERTY_OVERRIDES += persist.sys.enable_rescue=false
 
 PRODUCT_PACKAGES += \
     XiaomiParts
+
+# for off charging mode
+PRODUCT_PACKAGES += \
+    charger_xiaomi
