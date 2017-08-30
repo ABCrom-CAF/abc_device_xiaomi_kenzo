@@ -29,6 +29,9 @@ voice.playback.conc.disabled=true
 voice.record.conc.disabled=false
 voice.voip.conc.disabled=true
 
+#low audio flinger standby delay to reduce power consumption
+ro.audio.flinger_standbytime_ms=300
+
 # Bluetooth
 bluetooth.hfp.client=1
 qcom.bluetooth.soc=smd
