@@ -54,7 +54,8 @@ static void dummy(void) {
 	manager.configureDirectChannel(0, 0, 0);
 	Vector<float> floats;
 	Vector<int32_t>	ints;
-	manager.setOperationParameter(0, floats, ints);
+	manager.setOperationParameter(0, 0, floats, ints);
+	
 
 	sp<ISensorEventConnection> connection;
 	SensorEventQueue* queue	= new SensorEventQueue(connection);
