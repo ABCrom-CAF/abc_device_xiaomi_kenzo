@@ -392,3 +392,6 @@ PRODUCT_COPY_FILES += \
 
 #RescueParty
 PRODUCT_PROPERTY_OVERRIDES += persist.sys.enable_rescue=false
+
+PRODUCT_PACKAGES += \
+    XiaomiParts
