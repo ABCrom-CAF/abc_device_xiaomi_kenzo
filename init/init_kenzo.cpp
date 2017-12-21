@@ -34,6 +34,8 @@ char const *heapgrowthlimit;
 char const *heapsize;
 char const *heapminfree;
 
+using android::init::property_set;
+
 void check_device()
 {
     struct sysinfo sys;
