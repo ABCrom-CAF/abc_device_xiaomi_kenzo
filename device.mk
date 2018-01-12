@@ -169,8 +169,8 @@ PRODUCT_PACKAGES += \
 
 # Face detection extension
 PRODUCT_PACKAGES += \
-    org.codeaurora.camera
-
+    com.qualcomm.qti.camera
+    
 # Fingerprint
 PRODUCT_PACKAGES += \
     fingerprintd \
