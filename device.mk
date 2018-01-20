@@ -124,6 +124,17 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth@1.0-impl \
     libbt-vendor
 
+PRODUCT_PACKAGES += \
+    Stk \
+    telephony-ext
+
+PRODUCT_BOOT_JARS += \
+    telephony-ext
+
+# TCP Connection Management
+PRODUCT_PACKAGES += tcmiface
+PRODUCT_BOOT_JARS += tcmiface
+
 # Camera
 PRODUCT_PACKAGES += \
     camera.device@3.2-impl \
@@ -317,7 +328,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libshims_camera \
     libshims_ims \
-    libshims_get_process_name
+    libshims_get_process_name \
     libshims_sensor
 
 # Ramdisk
