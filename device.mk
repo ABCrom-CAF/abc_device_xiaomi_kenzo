@@ -399,3 +399,6 @@ PRODUCT_COPY_FILES += \
 
 #RescueParty
 PRODUCT_PROPERTY_OVERRIDES += persist.sys.enable_rescue=false
+
+$(call inherit-product, $(LOCAL_PATH)/qcom_target.mk)
+$(call inherit-product, $(LOCAL_PATH)/qcom_utils.mk)
