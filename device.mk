@@ -23,11 +23,14 @@ $(call inherit-product-if-exists, vendor/xiaomi/kenzo/kenzo-vendor.mk)
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-lineage
+#    $(LOCAL_PATH)/overlay-lineage
 
 # Screen density
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
+
+# List of targets that use video hw
+MSM_VIDC_TARGET_LIST := msm8952
 
 # Boot animation
 TARGET_BOOTANIMATION_HALF_RES := true
@@ -171,7 +174,8 @@ PRODUCT_PACKAGES += \
     copybit.msm8952 \
     gralloc.msm8952 \
     hwcomposer.msm8952 \
-    memtrack.msm8952
+    memtrack.msm8952 \
+    liboverlay
 
 # Doze mode
 #PRODUCT_PACKAGES += \
