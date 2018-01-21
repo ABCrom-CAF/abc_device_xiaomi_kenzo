@@ -173,7 +173,7 @@ PRODUCT_PACKAGES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    fingerprintd
+    fingerprintd \
     android.hardware.biometrics.fingerprint@2.0-service-custom
 
 # FM
@@ -248,10 +248,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.hwui.text_large_cache_width=3072 \
     ro.hwui.text_large_cache_height=2048
 
-# IPA Manager
-#PRODUCT_PACKAGES += \
-    ipacm \
-    IPACM_cfg.xml
 
 # IPC router config
 PRODUCT_COPY_FILES += \
@@ -322,7 +318,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libshims_camera \
     libshims_ims \
-    libshims_get_process_name
+    libshims_get_process_name \
     libshims_sensor
 
 # Ramdisk
