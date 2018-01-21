@@ -219,11 +219,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/msm8976-tashalite-snd-card_Button_Jack.kl:system/usr/keylayout/msm8976-tashalite-snd-card_Button_Jack.kl \
     $(LOCAL_PATH)/keylayout/uinput-fpc.kl:system/usr/keylayout/uinput-fpc.kl
 
-# IPACM
-#PRODUCT_PACKAGES += \
-#    IPACM_cfg.xml \
-#    ipacm
-
 # GNSS HAL
 PRODUCT_PACKAGES += \
     android.hardware.gnss@1.0-impl
